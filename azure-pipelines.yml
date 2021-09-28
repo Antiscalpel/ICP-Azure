@@ -6,9 +6,10 @@
 trigger:
 - main
 
-pool: ICP-AgentPool
+pool: aws-vs
 
 steps:
+- script: echo "Hello world!!! From Vadims"
 - script: bash ARM/create.sh
 
 
